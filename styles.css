@@ -1,0 +1,60 @@
+.header,.footer{
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    background-color: rgb(204, 179, 228);
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main{
+    display: flex;
+    flex: 1;
+    justify-content: stretch;
+    text-align: center;
+}
+.aside{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    background-color: rgb(94, 197, 145);
+}
+.article{
+display: flex;
+flex-direction: column;
+flex: 1;
+background-color: rgb(252, 222, 174);
+}
+.section{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.title,.about,.history{
+    display: flex; 
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    background-color: rgb(238, 190, 118);
+}
+.title,.about,.info{
+flex: 1;
+}
+.footer{
+    justify-content: space-around;
+}
+.address,.soc,.work,.contact{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    background-color: rgb(134, 243, 207);
+}
+h1,
+h2,
+h3{ 
+    font-family:'Courier New', Courier, monospace;
+}
